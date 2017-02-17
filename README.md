@@ -1,6 +1,8 @@
 # AddTextViewButton
 
-This is a compilation of adding views in differents layouts
+This is a compilation of adding views in differents layouts programatically
+
+**[You'll find the supporting medium article for this project here!](http://thedeveloperworldisyours.com/android/add-a-textview-and-a-button-to-linear-layout-programmatically/#sthash.SvWmDS5M.dpbs)**
 
 [Menu][menu] | [LinearLayout][linear] | [RelativeLayout][relative] | [Custom][custom]
 --- | --- | --- | ---
