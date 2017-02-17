@@ -11,20 +11,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.thedeveloperworldisyours.addtextview.MainActivity">
 
+    <ImageView
+        android:id="@+id/thedeveloperworldisyours_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thedeveloperworldisyours" />
+
+
     <Button
         android:id="@+id/activity_main_relative_layout_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goToRelativeLayout"
+        android:layout_below="@+id/thedeveloperworldisyours_image_view"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/activity_main_linear_layout"
+        android:onClick="goToRelativeLayout"
         android:text="@string/activity_main_relative_layout" />
 
     <Button
         android:id="@+id/activity_main_linear_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/activity_main_custom_view"
+        android:layout_below="@+id/activity_main_relative_layout_button"
         android:layout_centerHorizontal="true"
         android:onClick="goToLinearLayout"
         android:text="@string/activity_main_linear_layout" />
@@ -33,7 +40,8 @@
         android:id="@+id/activity_main_custom_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@+id/activity_main_linear_layout"
+        android:layout_centerHorizontal="true"
         android:onClick="goToCustomView"
         android:text="@string/activity_main_custom_view" />
 </RelativeLayout>
