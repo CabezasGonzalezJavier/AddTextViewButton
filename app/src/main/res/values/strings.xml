@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AddTextView</string>
+
+    <string name="activity_main_relative_layout">Relative layout</string>
+    <string name="activity_main_linear_layout">Linear layout</string>
+    <string name="activity_main_custom_view">Custom view</string>
+
+</resources>
